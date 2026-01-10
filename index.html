@@ -388,7 +388,17 @@
             opacity: 0.3;
             transition: all 0.4s ease;
         }
+        .project-image {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 22px 22px 0 0;
+            border-bottom: 3px solid #ffb3d9;
+        }
 
+        .project-content {
+            padding: 35px;
+        }
         .project-card:hover::before {
             opacity: 1;
             transform: scale(1.3) rotate(15deg);
@@ -790,7 +800,7 @@
 
     <header>
         <nav>
-            <div class="logo">✨ Gia's Pink 🎀</div>
+            <div class="logo">✨ Gia's Pink Code 🎀</div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -810,7 +820,7 @@
             
             <div class="profile-container">
                 <!-- REPLACE THIS URL WITH YOUR OWN PICTURE -->
-                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop" 
+                <img src="5.png" 
                      alt="Your Profile Picture" 
                      class="profile-pic">
                 <div class="profile-bow">🎀</div>
@@ -846,63 +856,55 @@
             <h2 class="section-title">Featured Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
+		    <img src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=800&h=500&fit=crop" alt="Tree Simulation" class="project-image">
                     <div class="project-icon">🌸</div>
-                    <h3>Blossom Beauty</h3>
-                    <p>A beautiful e-commerce platform for beauty products with elegant animations and smooth user experience. Features real-time inventory and personalized recommendations.</p>
-                    <div class="project-tags">
-                        <span class="tag">React</span>
-                        <span class="tag">Node.js</span>
-                        <span class="tag">MongoDB</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link">→ View Demo</a>
-                        <a href="#" class="project-link">→ GitHub</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-icon">💕</div>
-                    <h3>Sweet Dreams Planner</h3>
-                    <p>An adorable task management app with customizable themes and motivational quotes. Perfect for organizing your day with style!</p>
-                    <div class="project-tags">
-                        <span class="tag">Python</span>
-                        <span class="tag">FastAPI</span>
-                        <span class="tag">PostgreSQL</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link">→ View Demo</a>
-                        <a href="#" class="project-link">→ GitHub</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-icon">🎀</div>
-                    <h3>Ribbon Gallery</h3>
-                    <p>A stunning portfolio showcase platform with smooth transitions and aesthetic layouts. Made for creatives who love beautiful designs.</p>
-                    <div class="project-tags">
-                        <span class="tag">TypeScript</span>
-                        <span class="tag">Next.js</span>
-                        <span class="tag">Tailwind CSS</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link">→ View Demo</a>
-                        <a href="#" class="project-link">→ GitHub</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-icon">✨</div>
-                    <h3>Sparkle UI Library</h3>
-                    <p>An open source component library with dreamy designs and smooth animations. Perfect for building enchanting user interfaces!</p>
+                    <h3>>Recursive Tree Growth Simulation</h3>
+                    <p>This HTML code defines a simple webpage for a Recursive Tree Growth Simulation. It displays a canvas where users can click to generate new, 
+                        fractal-like tree structures representing seasonal growth. The page includes a title, a season indicator, and instructions in the footer. 
+                        Styling and tree-drawing functionality are handled by linked CSS (midterm.css) and JavaScript (midterm.js) files.</p>
                     <div class="project-tags">
                         <span class="tag">JavaScript</span>
-                        <span class="tag">Jest</span>
-                        <span class="tag">CI/CD</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">HTML</span>
                     </div>
                     <div class="project-links">
                         <a href="#" class="project-link">→ View Demo</a>
                         <a href="#" class="project-link">→ GitHub</a>
                     </div>
+                </div>
+
+                <div class="project-card">
+		    <img src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=800&h=500&fit=crop" alt="Tree Simulation" class="project-image">
+                    <div class="project-icon">💕</div>
+                    <h3>Sales Inventory System</h3>
+                    <p> A Python-based grocery list manager with features for adding items with details, 
+                        calculating total costs, editing/removing items, sorting by price, and quick search 
+                        functionality. Helps with budget management and efficient shopping.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">→ View Demo</a>
+                        <a href="#" class="project-link">→ GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+		    <img src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=800&h=500&fit=crop" alt="Tree Simulation" class="project-image">
+                    <div class="project-icon">🎀</div>
+                    <h3>Cyber Sweep Game</h3>
+                    <p>Cybersweep is a futuristic twist on the classic Minesweeper puzzle game. Built with HTML,
+                        CSS, and JavaScript, it challenges players to clear a grid by strategically revealing safe 
+                        cells while avoiding hidden hazards. With its cyber-themed aesthetic, the game brings a 
+                        modern edge to the timeless logic-based gameplay that has captivated puzzle enthusiasts for decades. 
+                        Test your deductive skills and sweep the grid to victory!</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag"> CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">→ View Demo</a>
+                        <a href="#" class="project-link">→ GitHub</a>
+                    </div>
+                </div>
                 </div>
             </div>
         </section>
@@ -913,20 +915,17 @@
                 <div class="skill-category">
                     <h3><span class="skill-icon">🎨</span> Frontend</h3>
                     <ul>
-                        <li>HTML5 & CSS3</li>
-                        <li>JavaScript (ES6+)</li>
-                        <li>React & Next.js</li>
-                        <li>Vue.js</li>
-                        <li>Tailwind CSS</li>
-                        <li>TypeScript</li>
+                        <li>HTML</li>
+                        <li>JavaScript</li>
+                        <li>CSS</li>
                     </ul>
                 </div>
 
                 <div class="skill-category">
                     <h3><span class="skill-icon">⚙️</span> Backend</h3>
                     <ul>
-                        <li>Node.js & Express</li>
-                        <li>Python & Django</li>
+                        <li>Java</li>
+                        <li>Python</li>
                         <li>REST & GraphQL APIs</li>
                         <li>Microservices</li>
                         <li>WebSockets</li>
@@ -935,26 +934,12 @@
                 </div>
 
                 <div class="skill-category">
-                    <h3><span class="skill-icon">💾</span> Database</h3>
+                    <h3><span class="skill-icon">💾</span> Networking</h3>
                     <ul>
-                        <li>PostgreSQL</li>
-                        <li>MongoDB</li>
-                        <li>Redis</li>
-                        <li>MySQL</li>
-                        <li>Firebase</li>
-                        <li>Prisma ORM</li>
-                    </ul>
-                </div>
-
-                <div class="skill-category">
-                    <h3><span class="skill-icon">🚀</span> DevOps & Tools</h3>
-                    <ul>
-                        <li>Git & GitHub</li>
-                        <li>Docker</li>
-                        <li>CI/CD Pipelines</li>
-                        <li>AWS & Cloud Services</li>
-                        <li>Linux/Unix</li>
-                        <li>Kubernetes</li>
+                        <li>Networking Troubleshooting</li>
+                        <li>Networking Administration</li>
+                        <li>Networking Management</li>
+                        <li>Networking Architecture</li>
                     </ul>
                 </div>
             </div>
