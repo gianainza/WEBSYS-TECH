@@ -793,6 +793,24 @@
                 transform: translateY(-50px) scale(0.5);
             }
         }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+        .project {
+            width: 100%;
+            height: 500px;
+            overflow: hidden;
+            border-radius: 12px;
+        }
+        .project iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
     </style>
 </head>
 <body>
@@ -1001,6 +1019,24 @@
             </div>
         </section>
     </div>
+            <section id="fun-projects">
+    
+    <div class="projects-grid">
+        <div class="project">
+            <iframe
+                src="snake.html"
+                loading="lazy">
+            </iframe>
+        </div>
+
+        <div class="project">
+            <iframe
+                src="fireworks.html"
+                loading="lazy">
+            </iframe>
+>        </div>
+    </div>
+</section
 
     <div class="scroll-top" id="scrollTop">♡</div>
 
@@ -1008,6 +1044,7 @@
         <p>Made with love and sparkles ✨ © 2026 Gia 💕</p>
         <p style="margin-top: 8px; font-size: 13px;">Designed with passion • Coded with care • Deployed with dreams</p>
     </footer>
+
 
     <script>
         // Floating hearts background
